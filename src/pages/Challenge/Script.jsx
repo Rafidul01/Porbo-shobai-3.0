@@ -129,6 +129,7 @@ const questions = [
         }
     
     }
+    
     nextButton.addEventListener("click",()=>{
         if(currentQuestionIndex<questions.length){
             handleNexteButton();
