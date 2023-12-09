@@ -1,0 +1,30 @@
+*{
+  padding-top: 0px;
+  box-sizing: border-box;
+}
+
+
+.home-header1 {
+  text-align: center;
+  flex-direction: column;
+}
+
+.home-header1 h2 {
+  color: #10b695;
+  font-size: 2rem;
+}
+
+.home-header1 h1 {
+  font-size: 3rem;
+  color: rgb(22, 181, 54);
+  margin-bottom: 1rem;
+}
+
+.home-header1 h1 span {
+  color: #b0c4de;
+}
+
+.home-header1 p {
+  color: #a9a9a9;
+  font-weight: 500;
+}
