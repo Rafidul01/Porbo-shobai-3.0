@@ -2,12 +2,12 @@ import React from 'react';
 import './styles.css';
 import Navbar from '../../components/Navbar';
 import Space from '../../components/common/Space';
-import SchoolHead from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/schoolHead.png';
-import s1 from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/ideal school.png';
-import s2 from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/vn.png';
-import s3 from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/rajuk_school.png';
-import s4 from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/dr_school.png';
-import map from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/map.png';
+import SchoolHead from '../img/schoolHead.png';
+import s1 from '../img/ideal school.png';  
+import s2 from '../img/vn.png';
+import s3 from '../img/rajuk_school.png';
+import s4 from '../img/dr_school.png';
+import map from '../img/map.png';
 
 
 
