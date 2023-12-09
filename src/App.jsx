@@ -7,6 +7,8 @@ import Home from './pages/Home';
 import LeaderBoard from './pages/LeaderBoard';
 import Challenge from './pages/Challenge';
 import College from './pages/College';
+import University from './pages/University';
+
 
 
 
@@ -22,6 +24,7 @@ const App = () => {
         <Route path='/LeaderBoard' element={<LeaderBoard/>}></Route> 
         <Route path='/Challenge' element={<Challenge/>}></Route> 
         <Route path='/College' element={<College/>}></Route> 
+        <Route path='/University' element={<University/>}></Route> 
 
 
 

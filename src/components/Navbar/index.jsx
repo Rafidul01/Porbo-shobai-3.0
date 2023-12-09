@@ -20,7 +20,7 @@ function Navbar() {
 				<a href="/#">Home</a>
 				<a href="./School">School</a>
 				<a href="/College">College</a>
-				<a href="/#">University</a>
+				<a href="/University">University</a>
                 <a href="/#">Blog</a>
                 <a href="/LeaderBoard">LeaderBoard</a>
                 <a href="/Challenge">Challenge</a>
