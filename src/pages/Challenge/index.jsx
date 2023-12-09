@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles.css';
-import aiHead from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/aihead.png';
+import aiHead from '../img/aihead.png';
+
 import Navbar from '../../components/Navbar/index.jsx';
 // import './Script.jsx';
 

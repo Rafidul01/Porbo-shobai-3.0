@@ -20,9 +20,9 @@ export const blogList = [
                   দেশের শিক্ষার্থীদের পদার্থবিজ্ঞানে দক্ষ করে তুলতে ২০১১ সাল থেকেই ফিজিক্স অলিম্পিয়াড আয়োজন করা হয়। এ অলিম্পিয়াডের আয়োজন করছে বাংলাদেশ ফিজিক্স অলিম্পিয়াড কমিটি।
       `,
     authorName: "Ataur Rahman",
-    authorAvatar: "/assets/images/author.jpg",
+    authorAvatar: "/assets/author.jpg",
     createdAt: "March 03, 2023",
-    cover: "/assets/images/phyolympiad.jpg",
+    cover: "/assets/phyolympiad.jpg",
   },
   {
     id: 2,
@@ -34,9 +34,9 @@ export const blogList = [
       ব্যবহার করে তা থেকে বিদ্যুৎ শক্তিতে রূপান্তর করা যায়। এই প্রজেক্টটি ৩ ধাপে কাজ করে থাকে। প্রথম ধাপে, পানি কে উচ্চচাপের বাষ্পে রূপান্তর করা হয়। পরে সেই বাষ্পকে ব্যবহার করে সামনে থাকা টার্বাইনকে ঘুরানো হয়। পরের ধাপে টার্বাইনের ঘূর্ণনশক্তিকে বিদ্যুৎ শক্তিতে রূপান্তর করা হয়।
       প্রজেক্টের মডেল বানাতে একটা এলইডি লাইট, মোটর, একটা কন্টেইনার, আগুন দেওয়ার জন্য স্পিরিট ল্যাম্প আর কিছু জিনিসপত্র লাগবে।  `,
     authorName: "Nil Ahmed",
-    authorAvatar: "/assets/images/author.jpg",
+    authorAvatar: "/assets/author.jpg",
     createdAt: "June 03, 2023",
-    cover: "/assets/images/steamgn.jpg",
+    cover: "/assets/steamgn.jpg",
   },
   {
     id: 3,
@@ -82,9 +82,9 @@ export const blogList = [
       খরগোশের মাথায় চড়ে দুই দিন দুই রাত বনের এ-মাথা ও-মাথা ঘুরে বেড়াল ব্যাঙরা।
       পরদিন আবার তোড়েজোড়ে বৃষ্টি নামল। ফুলেফেঁপে উঠল নদীর পানি আর ব্যাঙরা মনের সুখে বর্ষার গান ধরল।`,
     authorName: "Tasnia Sultana",
-    authorAvatar: "/assets/images/author.jpg",
+    authorAvatar: "/assets/author.jpg",
     createdAt: "June 03, 2021",
-    cover: "/assets/images/rabbit.jpg",
+    cover: "/assets/rabbit.jpg",
   },
   {
     id: 4,
@@ -122,9 +122,9 @@ export const blogList = [
       
       তিন গোয়েন্দার একটি হেডকোয়ার্টার আছে। পাশা স্যালভিজ ইয়ার্ডের লোহা-লক্কড়ের নিচে পুরনো একটা মোবাইল হোমে এর অবস্থান। হেডকোয়ার্টারে টেলিফোন, বিভিন্ন কেসের নথি রাখার জায়গা, ছবি ওয়াশ করার জন্য ডার্করুম, টেলিস্কোপসহ (কিশোর যেটার নাম দিয়েছে সর্বদর্শন) অনেক কিছুই আছে। হেডকোয়ার্টারে ঢোকার জন্য আছে গোপন সুড়ঙ্গপথ, যেগুলোর সাঙ্কেতিক নাম যথাক্রমে সবুজ ফটক এক, দুই সুড়ঙ্গ, সহজ তিন, লাল কুকুর চার ইত্যাদি।`,
     authorName: "Yasin Selim",
-    authorAvatar: "/assets/images/author.jpg",
+    authorAvatar: "/assets/author.jpg",
     createdAt: "June 03, 2023",
-    cover: "/assets/images/goyenda.jpg",
+    cover: "/assets/goyenda.jpg",
   },
   {
     id: 5,
@@ -137,9 +137,9 @@ export const blogList = [
                   কনসেপ্ট ও চমৎকার। বৃষ্টির পানিকে কিভাবে জমিয়ে রেখে সারাবছর ব্যবহার করা যায় তাই এই প্রজেক্টের প্রতিপাদ্য। পানির অপচয় রোধ আর যাদের পানির সংকট রয়েছে তারা যেভাবে এই জমানো পানি একটা সিস্টেমের মাধ্যমে ব্যবহার করতে পারে তাও রয়েছে। খুব কম খরচে এই কনসেপ্ট ই প্রজেক্টের মাধ্যমে করা যায়। পানি ফিল্টারিং এর জন্য কিছু উপাদান, ঘর বাড়ির কিছু মডেল আর ছোট ছোট পাইপ লাইন যা বৃষ্টির পানির মাধ্যম হিসেবে ব্যবহার হবে।
                   `,
     authorName: "Mohon Mia",
-    authorAvatar: "/assets/images/author.jpg",
+    authorAvatar: "/assets/author.jpg",
     createdAt: "June 03, 2023",
-    cover: "/assets/images/Rainwater.png",
+    cover: "/assets/Rainwater.png",
   },
   {
     id: 6,
@@ -188,10 +188,10 @@ export const blogList = [
 
 পরিশেষে বলা যায়, উল্লিখিত বিষয়গুলো বুঝে ধারণ করতে হবে। উপাদানগুলোর প্রয়োজন অনুযায়ী সূক্ষ্ম ব্যবহারই কবিতাকে করে তুলবে কালজয়ী। এ ক্ষেত্রে আবৃত্তিকারকে হতে হবে পরিমিতিবোধসম্পন্ন। তাহলেই আবৃত্তি নির্মাণ পরিপূর্ণতা লাভ করবে। কবিতা হয়ে উঠবে শ্রোতা কিংবা দর্শকের কাছে অধিক গ্রহণযোগ্য। আর তাতেই আবৃত্তিকারের সার্থকতা।`,
     authorName: "Nafisa Chowdhury",
-    authorAvatar: "/assets/images/author.jpg",
+    authorAvatar: "/assets/author.jpg",
     createdAt: "June 03, 2021",
     cover:
-      "/assets/images/poem.jpg",
+      "/assets/poem.jpg",
   },
   {
     id: 7,
@@ -201,8 +201,8 @@ export const blogList = [
     description:
       "এটি আমার অঙ্কন, এটির জন্য প্রচুর সময় ব্যয় করা হয়েছে।",
     authorName: "Lamisa Khan",
-    authorAvatar: "/assets/images/author.jpg",
+    authorAvatar: "/assets/author.jpg",
     createdAt: "June 03, 2021",
-    cover: "/assets/images/draw.jpeg",
+    cover: "/assets/draw.jpeg",
   },
 ];

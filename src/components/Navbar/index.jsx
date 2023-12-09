@@ -1,7 +1,8 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import './styles.css';
-import lg from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/logo.png';
+import lg from '../images/logo.png';
+
 
 function Navbar() {
 	const navRef = useRef();

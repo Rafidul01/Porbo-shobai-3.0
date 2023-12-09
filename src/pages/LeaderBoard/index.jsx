@@ -1,11 +1,11 @@
 import React from 'react'
 import './styles.css';
-import l1 from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/img-1.png';
-import l2 from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/img-2.png';
-import l3 from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/img-3.png';
-import l4 from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/img-4.png';
-import l5 from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/img-5.png';
-import l6 from 'F:/React/Porbo Shobai 3.0/porbo-shobai/src/img/img-6.png';
+import l1 from '../img/img-1.png';
+import l2 from '../img/img-2.png';
+import l3 from '../img/img-3.png';
+import l4 from '../img/img-4.png';
+import l5 from '../img/img-5.png';
+import l6 from '../img/img-6.png';
 import Navbar from '../../components/Navbar';
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></script>
 
