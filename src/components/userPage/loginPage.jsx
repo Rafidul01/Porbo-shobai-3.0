@@ -117,11 +117,15 @@ export function Loginpage({ user }) {
                 </button>
               </div>
             </form>
-          </div>
-          <div className="w-full flex items-center justify-center relative py-1">
+            <div className="w-full flex items-center justify-center relative py-1">
             <div className="w-full h-[1px] bg-violet-600 my-1"></div>
             <p className="p-1 absolute text-gray-500 bg bg-cyan">OR</p>
           </div>
+          </div>
+          {/* <div className="w-full flex items-center justify-center relative py-1">
+            <div className="w-full h-[1px] bg-violet-600 my-1"></div>
+            <p className="p-1 absolute text-gray-500 bg bg-cyan">OR</p>
+          </div> */}
           <p className="text-lg">
             Create an account.Its free.
             <Link className="text-l font-semibold mx-1 underline-offset-2 cursor-pointer text-violet-600" to="/signup">

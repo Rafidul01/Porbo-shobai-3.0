@@ -52,13 +52,13 @@ function Navbar() {
                 <a href="/Competition">Events</a>
 				
 				{user && (
-					<div>
-					<p class="text-black">{`Welcome ${user.email}`}</p>	
+					<div class="user-name">
+					<p class="text-black">{` ${user.email}`}</p>	
 				</div>	
 				
               )}
 			   <a
-                  class="text-violet-600"
+                  class="logout"
                   onClick={userSignOut}
                   to="/"
                 >
