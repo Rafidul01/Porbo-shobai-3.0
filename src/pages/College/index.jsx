@@ -3,10 +3,10 @@ import './styles.css';
 import Navbar from '../../components/Navbar';
 import Space from '../../components/common/Space';
 import collegeHead from '../img/College head.png';
-import c1 from '../img/rajuk_college.png';  
-import c2 from '../img/vn.png';
-import c3 from '../img/rajuk_college.png';
-import c4 from '../img/dhaka_college.png';
+import c1 from '../img/dhaka_college.png';  
+import c2 from '../img/adamjee_cantonment_college.png';
+import c3 from '../img/rajshahi_college.png';
+import c4 from '../img/notre_dame_college.png';
 import cmap from '../img/map.png';
 
 const College = () => {
@@ -32,14 +32,14 @@ const College = () => {
                 <img src={c1} alt="college Image" />
               </div>
             <div class="college-title">
-                <h2 class="college-name">Ideal college & College, Motijheel, Dhaka.</h2>
-               <a href="https://iscm.edu.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
+                <h2 class="college-name">Dhaka College.</h2>
+               <a href="http://dhakacollege.edu.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
 
                <div class="college-infos">
                 <p class="college-info"><img src={cmap} alt="map"/>  Address:</p>
-                <p class="college-info">Motijheel, Dhaka-1000</p>
-                <p class="college-info">Call - 48310177</p>
-                <p class="college-info">iscmdhaka@gmail.com</p>
+                <p class="college-info">New Market, Dhaka-1000</p>
+                <p class="college-info">Call - 029666058</p>
+                <p class="college-info">dhakacollegeprincipal@gmail.com</p>
             </div>
             </div>
            
@@ -50,14 +50,14 @@ const College = () => {
             <img src={c2} alt="college Image" />
               </div>
             <div class="college-title">
-                <h2 class="college-name">Viqarunnisa Noon college and College.</h2>
-                <a href="https://www.vnsc.edu.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
+                <h2 class="college-name">Adamjee Cantonment College</h2>
+                <a href="http://acc.edu.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
 
                <div class="college-infos">
                <p class="college-info"><img src={cmap} alt="map"/>  Address:</p>
-                <p class="college-info">1/A, New Bailey Road Dhaka , 1000 Bangladesh</p>
-                <p class="college-info">Call - 01867268422</p>
-                <p class="college-info">vnsc_bd@yahoo.com</p>
+                <p class="college-info">Shaheed Sharani , Dhaka 1206</p>
+                <p class="college-info">Call -028872446</p>
+                <p class="college-info">info@acc.edu.bd</p>
             </div>
             </div>
            
@@ -68,14 +68,14 @@ const College = () => {
             <img src={c3} alt="college Image" />
               </div>
             <div class="college-title">
-                <h2 class="college-name">Rajuk Uttara Model College.</h2>
-                <a href="http://www.rajukcollege.edu.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
+                <h2 class="college-name">Rajshahi College</h2>
+                <a href="http://rc.edu.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
 
                <div class="college-infos">
                <p class="college-info"><img src={cmap} alt="map"/>  Address:</p>
-                <p class="college-info">Sector#6, Uttara Model Town, Dhaka.</p>
-                <p class="college-info">Call - +88-02-48957101-4</p>
-                <p class="college-info">rajukcollege94@gmail.com</p>
+                <p class="college-info">Saheb Bazar Rd,Rajshahi 6100.</p>
+                <p class="college-info">Call - 02588855475</p>
+                <p class="college-info">rajshahicollegebd@gmail.com</p>
             </div>
             </div>
           </div>
@@ -86,15 +86,15 @@ const College = () => {
             <img src={c4} alt="college Image" />
               </div>
             <div class="college-title">
-                <h2 class="college-name">Dhaka Residential Model College.</h2>
-                <a href="http://www.drmc.edu.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
+                <h2 class="college-name">Notre Dame College.</h2>
+                <a href="http://ndc.edu.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
 
 
                <div class="college-infos">
                <p class="college-info"><img src={cmap} alt="map"/>  Address:</p>
-                <p class="college-info">Mohammadpur, Dhaka.</p>
-                <p class="college-info">Call - +880258153774</p>
-                <p class="college-info">drmc_bd@yahoo.com</p>
+                <p class="college-info">Toyenbee Circular Rd, Dhaka 1000.</p>
+                <p class="college-info">Call - +880241070712</p>
+                <p class="college-info">notredamecollege@ndc.edu.bd</p>
             </div>
             </div>
             

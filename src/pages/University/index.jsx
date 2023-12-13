@@ -3,10 +3,10 @@ import './styles.css'
 import Navbar from '../../components/Navbar';
 import Space from '../../components/common/Space';
 import universityHead from '../img/universityhead.png';
-import s1 from '../img/ideal school.png';  
-import s2 from '../img/vn.png';
-import s3 from '../img/rajuk_school.png';
-import s4 from '../img/dr_school.png';
+import u1 from '../img/DU.png';  
+import u2 from '../img/BUET.png';
+import u3 from '../img/CU.png';
+import u4 from '../img/IIUC.png';
 import map from '../img/map.png';
 const University = () => {
   return (
@@ -28,17 +28,18 @@ const University = () => {
 
         <div class="university">
             <div class="university-img">
-                <img src={s1} alt="university Image" />
+              
+                <img src={u1} alt="university Image" />
               </div>
             <div class="university-title">
-                <h2 class="university-name">Ideal university & College, Motijheel, Dhaka.</h2>
-               <a href="https://iscm.edu.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
+                <h2 class="university-name">Dhaka University.</h2>
+               <a href="http://www.du.ac.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
 
                <div class="university-infos">
                 <p class="university-info"><img src={map} alt="map"/>  Address:</p>
-                <p class="university-info">Motijheel, Dhaka-1000</p>
-                <p class="university-info">Call - 48310177</p>
-                <p class="university-info">iscmdhaka@gmail.com</p>
+                <p class="university-info">Nilkhet Rd, Dhaka-1000</p>
+                <p class="university-info">Call - 029667222</p>
+                <p class="university-info">vcoffice@du.ac.bd</p>
             </div>
             </div>
            
@@ -46,17 +47,17 @@ const University = () => {
     
         <div class="university">
             <div class="university-img">
-            <img src={s2} alt="university Image" />
+            <img src={u3} alt="university Image" />
               </div>
             <div class="university-title">
-                <h2 class="university-name">Viqarunnisa Noon university and College.</h2>
-                <a href="https://www.vnsc.edu.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
+                <h2 class="university-name">University of Chittagong</h2>
+                <a href="http://cu.ac.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
 
                <div class="university-infos">
                <p class="university-info"><img src={map} alt="map"/>  Address:</p>
-                <p class="university-info">1/A, New Bailey Road Dhaka , 1000 Bangladesh</p>
-                <p class="university-info">Call - 01867268422</p>
-                <p class="university-info">vnsc_bd@yahoo.com</p>
+                <p class="university-info">Chittagong University, Chittagong-4331</p>
+                <p class="university-info">Call - 02606915-27</p>
+                <p class="university-info">registrarcu66@cu.ac.bd</p>
             </div>
             </div>
            
@@ -64,17 +65,17 @@ const University = () => {
 
         <div class="university">
             <div class="university-img">
-            <img src={s3} alt="university Image" />
+            <img src={u2} alt="university Image" />
               </div>
             <div class="university-title">
-                <h2 class="university-name">Rajuk Uttara Model College.</h2>
-                <a href="http://www.rajukcollege.edu.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
+                <h2 class="university-name">Bangladesh University of Engineering and Technology</h2>
+                <a href="http://www.buet.ac.bd/web/#/" target="_blank"><button class="visit-btn">Visit</button></a>
 
                <div class="university-infos">
                <p class="university-info"><img src={map} alt="map"/>  Address:</p>
-                <p class="university-info">Sector#6, Uttara Model Town, Dhaka.</p>
-                <p class="university-info">Call - +88-02-48957101-4</p>
-                <p class="university-info">rajukcollege94@gmail.com</p>
+                <p class="university-info">Dhaka,Bangladesh</p>
+                <p class="university-info">Call - 029665602</p>
+                <p class="university-info">support@iict.buet.ac.bd</p>
             </div>
             </div>
           
@@ -82,18 +83,18 @@ const University = () => {
 
         <div class="university">
             <div class="university-img">
-            <img src={s4} alt="university Image" />
+            <img src={u4} alt="university Image" />
               </div>
             <div class="university-title">
-                <h2 class="university-name">Dhaka Residential Model College.</h2>
-                <a href="http://www.drmc.edu.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
+                <h2 class="university-name">International Islamic University Chittagong</h2>
+                <a href="http://www.iiuc.ac.bd/" target="_blank"><button class="visit-btn">Visit</button></a>
 
 
                <div class="university-infos">
                <p class="university-info"><img src={map} alt="map"/>  Address:</p>
-                <p class="university-info">Mohammadpur, Dhaka.</p>
-                <p class="university-info">Call - +880258153774</p>
-                <p class="university-info">drmc_bd@yahoo.com</p>
+                <p class="university-info">Kumira, Chattogram-4318</p>
+                <p class="university-info">Call -+8802334461900-7</p>
+                <p class="university-info">acad@iiuc.ac.bd </p>
             </div>
             </div>
             
