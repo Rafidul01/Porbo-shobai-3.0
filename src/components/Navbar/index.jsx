@@ -2,9 +2,34 @@ import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import './styles.css';
 import lg from '../images/logo.png';
+import { auth } from "../../firebase";
+import { onAuthStateChanged, signOut } from "firebase/auth";
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 
 
 function Navbar() {
+	const [user, setUser] = useState(null);
+	const navigate = useNavigate("");
+
+  	useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setUser(user);
+    });
+
+    // Cleanup the listener when the component unmounts
+    return () => unsubscribe();
+  }, []);
+
+  const userSignOut = () => {
+    signOut(auth)
+      .then(() => {
+        console.log("signout succesfully");
+		navigate("/")
+      })
+      .catch((Error) => console.log(Error));
+  };
 	const navRef = useRef();
 
 	const showNavbar = () => {
@@ -17,7 +42,7 @@ function Navbar() {
 		<header className="navheader">
 			<div className="logo"><img src={lg} alt="LOGO"/></div>
 			<nav ref={navRef}>
-				<a href="/#">Home</a>
+				<a href="/home">Home</a>
 				<a href="./School">School</a>
 				<a href="/College">College</a>
 				<a href="/University">University</a>
@@ -25,6 +50,23 @@ function Navbar() {
                 <a href="/LeaderBoard">LeaderBoard</a>
                 <a href="/Challenge">Challenge</a>
                 <a href="/#">Events</a>
+				
+				{user && (
+					<div>
+					<p class="text-black">{`Welcome ${user.email}`}</p>	
+				</div>	
+				
+              )}
+			   <a
+                  class="text-violet-600"
+                  onClick={userSignOut}
+                  to="/"
+                >
+                  Log Out
+                </a>
+		
+			 
+				
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
