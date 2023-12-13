@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap');
+@import url('https://fonts.maateen.me/charu-chandan-3d/font.css');
+/* Fonts Collections  */
+
+/* Main Style Section  */
+body{
+    margin:10px auto;
+    max-width: 1296px;
+    min-height: 100vh;
+    font-family: 'Tiro Bangla', serif;
+    background-color:#D9F3F4;
+    font-size: 12px;
+}
+.event-message{
+    background-color:#D9F3F4;
+    padding: 0.5rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+  }
+  .event-message input{
+
+    margin-right: 2rem;
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 30px;
+    width: 35rem;
+    color: #24292e;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid #e1e4e8;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+    :focus{
+        border-color: #0366d6;
+        outline: none;
+        box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+    }
+    
+  }
+ .button-a{
+    margin-right: 1.5rem;
+
+ }
+
+.homemain{
+    width:100%;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    grid-gap: 20px;
+    padding: 0;
+
+}
+.mainhead {
+    width: 100%;
+    margin-top: 5rem;
+}
+.mainhead img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+    
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+    /* align-items: space-between; */
+    align-items: center;
+    background-color: #fff;
+}
+.home-view{
+    margin-top: 1rem;
+    /* margin-bottom: 1rem; */
+    width: 15rem;
+
+}
+.main-event{
+  
+    display: grid;
+    /* grid-template-columns: repeat(2,1fr); */
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:50px 1rem;
+    width: 80%;
+    width: 1140px;
+    padding:2.5rem 1rem;
+    background-color: #fff;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+    border-radius: 5px;
+    justify-content: center;
+    justify-items: center;
+    /* max-height: 13rem; */
+}
+.main-event .event-img{
+    overflow: hidden;
+}
+.main-event-img {
+    border-radius: 5px;
+  width: 300px;
+  height: 200px;
+}
+.main-event .main-event-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.main-event .event-title{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.event-title h2{
+    font-size:28px;
+    color: #333;
+    /* font-family: 'Tiro Bangla', serif;
+     */
+     font-family: 'CharuChandan3D', sans-serif;
+  
+
+}
+
+
+/* CSS */
+.home-view {
+  background: #08A64C;
+  border: 1px solid #fcff42;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.home-view:hover,
+.home-view:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+
+.home-view:active {
+  opacity: .5;
+}
+.event-visit-btn {
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: #373B44;
+  font-family: 'Josefin Sans', sans-serif;
+  
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.event-visit-btn:hover,
+.event-visit-btn:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+  cursor: pointer;
+}
+
+.event-visit-btn :active {
+  background: var(--color);
+  color: #d5ff00;
+}
+
+.event-info{
+    font-size:18px;
+    color:  #333;
+}
+
+
+
+
+/* Responsive school Page here */
+ @media(max-width:1138px){
+    .school{
+        
+       
+        grid-template-columns: 1fr;
+
+        width: 90%;
+       
+    }
+ }
+
+
+/* @media(max-width:1016px){
+    .main{
+      align-items: flex-start;
+      margin-left: 40px; 
+      transition: all 0.50s ease;
+    }
+}
+
+@media(max-width:920px){
+    .main{
+        align-items: center;
+        margin-left: 0; 
+      }
+    .school{
+        transition: all 0.50s ease;
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+    }
+    .school-title,.school-img {
+        width: 70%;
+        } 
+} */
+
+
+
+
+
+
+/* TOP SEC */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&display=swap');
+
+
+ /* Topper Styles Section   */
+.toper-container{
+    margin-top: 50px;
+}
+.top-container{
+    background-color:#ffff;
+    padding:30px;
+    width:1140px;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+  
+}
+.topperall{
+    width: 100%;
+  background-color: #fff;
+
+}
+.toppers-all{
+  margin-top:3rem;
+  background-color: #fff;
+}
+.toper-heading {
+    font-family: 'Playpen Sans', cursive;
+    font-size: 20px;
+    color: rgb(55, 55, 245);
+    margin-top: 0;
+    margin-bottom: 2rem;
+  background-color: #fff;
+
+}
+.topers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:30px;
+    width: 100%;
+    justify-content: space-evenly;
+  background-color: #fff;
+
+}
+.toper{
+    display: flex;
+    align-items: center;
+  background-color: #fff;
+
+}
+.toper img{
+    height:55px;
+    width: 55px;
+  background-color: #fff;
+
+}
+
+.toper h3{
+   margin-left:15px;
+  background-color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+
+}
+
+
+/* horizontal Line  */
+/* hr{
+    border: 1px solid #a2a0a0;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 850px;
+
+} */
+
+/* Blog Style Section  */
+
+.blog-heading{
+    font-family: 'Playpen Sans', cursive;
+    font-size: 20px;
+    color: rgb(55, 55, 245);
+    margin-top: 2rem;
+  background-color: #fff;
+  margin-bottom: 2rem;
+
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  background-color: #fff;
+
+}
+.blog{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  background-color: #fff;
+
+}
+.blog p{
+  background-color: #fff;
+  
+}
+
+.blog img{
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+  background-color: #fff;
+
+}
+.blog-description h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  background-color: #fff;
+
+}
+.blog-description p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  background-color: #fff;
+
+}
+.author{
+    text-decoration: none;
+  background-color: #fff;
+
+}
+.topStudentsEithButton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  background-color: #fff;
+
+}
+.topStudentsEithButton a{
+  background-color: #fff;
+}
+.btn-leaderboard{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    font-family: 'Playpen Sans', cursive;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(158, 0, 110);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+.btn-leaderboard:hover{
+    background-color:rgb(202, 6, 205);
+    
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);  
+}

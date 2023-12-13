@@ -2,6 +2,8 @@ import { createUserWithEmailAndPassword } from "firebase/auth";
 import React, { useState } from "react";
 import { auth } from "../../firebase";
 import { Link, Navigate, useNavigate } from "react-router-dom";
+import './styles.css';
+import s1 from "../images/signup.png";
 
 export function SignupPage() {
   const [email, setEmail] = useState("");
@@ -21,13 +23,14 @@ export function SignupPage() {
   };
 
   return (
-    <div class="min-h-screen py-40 bg-gradient-to-r from-cyan-200 to-cyan-500 ">
+    <div class="min-h-screen py-10 bg-gradient-to-r from-cyan-200 to-cyan-500 ">
       <div class="container mx-auto rounded-xl">
-        <div class="flex flex-col lg:flex-row w-10/12 lg:w-8/12 mx-auto">
+        <div class="flex flex-col lg:flex-row w-10/12 lg:w-10/12 mx-auto">
           <div class="w-full lg:w-1/2 flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover bg-center ">
-            <h1 class="text-black text-5xl font-semibold mb-4">Welcome</h1>
+            {/* <h1 class="text-black text-5xl font-semibold mb-4">Welcome</h1> */}
             <div className="space-y-2">
-              <p class="text-black">
+              <img src={s1} alt=""/>
+              {/* <p class="text-black">
                 <span class="text-2xl p-1">Why us?</span>
                 <br />
                 <span class="px-2 ml-2">Interactive Learning Management.</span>
@@ -41,12 +44,12 @@ export function SignupPage() {
                 </span>
                 <br />
                 <span class="px-2 ml-2">Total 14 other perks</span>
-                <br />
+                <br /> */}
                 <span class=" text-xl">Already Have an Account?</span>
                 <Link to="/" class="text-purple-500 font-bold text-2xl">
                   Login Here
                 </Link>
-              </p>
+              {/* </p> */}
             </div>
           </div>
 

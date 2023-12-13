@@ -42,14 +42,14 @@ function Navbar() {
 		<header className="navheader">
 			<div className="logo"><img src={lg} alt="LOGO"/></div>
 			<nav ref={navRef}>
-				<a href="/home">Home</a>
+				<a href="/Main">Home</a>
 				<a href="./School">School</a>
 				<a href="/College">College</a>
 				<a href="/University">University</a>
-                <a href="/#">Blog</a>
+                <a href="/home">Blog</a>
                 <a href="/LeaderBoard">LeaderBoard</a>
                 <a href="/Challenge">Challenge</a>
-                <a href="/#">Events</a>
+                <a href="/Competition">Events</a>
 				
 				{user && (
 					<div>

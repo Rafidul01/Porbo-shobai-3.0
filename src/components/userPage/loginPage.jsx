@@ -3,6 +3,9 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase";
 import { Link } from "react-router-dom";
 import { Navigate, useNavigate } from "react-router-dom";
+import w1 from '../images/welcome.png';
+import './styles.css';
+
 
 export function Loginpage({ user }) {
   const [email, setEmail] = useState("");
@@ -31,7 +34,7 @@ export function Loginpage({ user }) {
     //Dividing into two parts for images and content(login box,login)
     <div className="w-full h-screen flex items-start">
       <div className="relative w-1/2 h-full flex flex-col">
-        <div className="absolute top-[20%] left-[10%] flex flex-col">
+        {/* <div className="absolute top-[20%] left-[10%] flex flex-col">
           <h1 className="text-4xl text-black font-semibold my-4 pr-2">
             Your vision ,Our works. Lets make a deal
           </h1>
@@ -39,16 +42,17 @@ export function Loginpage({ user }) {
             Dreams fuel ambition; vision lights the way
           </p>
         </div>
-        <div className="w-full h-full"></div>
+        <div className="w-full h-full"></div> */}
+        <img src={w1} alt=""/>
       </div>
 
       {/* Content Portion */}
-      <div className="w-1/2 h-full bg-cyan flex flex-col p-20 justify-between">
-        <h1 className="text-base font-bold">Porbo Sobai</h1>
+      <div className="w-1/2 h-full bg-cyan flex flex-col p-15 justify-between">
+        {/* <h1 className="text-base font-bold">Porbo Sobai</h1> */}
 
         {/*Login text */}
-        <div className="w-full flex flex-col">
-          <div className="w-full flex flex-col mb-8">
+        <div className="w-full flex flex-col my-12">
+          <div className="w-full flex flex-col mb-8 my-8">
             <h3 className="text-4xl font-semibold mb-2">Login Here</h3>
           </div>
 
@@ -114,11 +118,7 @@ export function Loginpage({ user }) {
               </div>
             </form>
           </div>
-        </div>
-
-        {/* */}
-        <div className="w-full">
-          <div className="w-full flex items-center justify-center relative py-2">
+          <div className="w-full flex items-center justify-center relative py-1">
             <div className="w-full h-[1px] bg-violet-600 my-1"></div>
             <p className="p-1 absolute text-gray-500 bg bg-cyan">OR</p>
           </div>
@@ -130,6 +130,21 @@ export function Loginpage({ user }) {
             </Link>
           </p>
         </div>
+
+        {/* */}
+        {/* <div className="w-full">
+          <div className="w-full flex items-center justify-center relative py-1">
+            <div className="w-full h-[1px] bg-violet-600 my-1"></div>
+            <p className="p-1 absolute text-gray-500 bg bg-cyan">OR</p>
+          </div>
+          <p className="text-lg">
+            Create an account.Its free.
+            <Link className="text-xl font-semibold underline underline-offset-2 cursor-pointer text-violet-600" to="/signup">
+             
+              Sign Up
+            </Link>
+          </p>
+        </div> */}
       </div>
     </div>
   );

@@ -7,6 +7,7 @@ import './styles.css';
 import { Link } from 'react-router-dom';
 // import Space from '../../components/common/Space';
 import Navbar from '../../components/Navbar';
+import Home from '../Home';
 
 const Blog = () => {
   const { id } = useParams();
@@ -23,7 +24,7 @@ const Blog = () => {
     <>
      
      <Navbar />
-      <Link className='blog-goBack' to='/'>
+      <Link className='blog-goBack' to='/Home'>
         <span> &#8592;</span> <span>Go Back</span>
       </Link>
       {blog ? (
