@@ -45,8 +45,8 @@ export function SignupPage() {
                 <br />
                 <span class="px-2 ml-2">Total 14 other perks</span>
                 <br /> */}
-                <span class=" text-xl">Already Have an Account?</span>
-                <Link to="/" class="text-purple-500 font-bold text-2xl">
+                <span class=" text-xl py-2">Already Have an Account?</span>
+                <Link to="/" class="text-purple-500 font-bold text-xl ms-1">
                   Login Here
                 </Link>
               {/* </p> */}

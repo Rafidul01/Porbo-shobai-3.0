@@ -124,7 +124,7 @@ export function Loginpage({ user }) {
           </div>
           <p className="text-lg">
             Create an account.Its free.
-            <Link className="text-xl font-semibold underline underline-offset-2 cursor-pointer text-violet-600" to="/signup">
+            <Link className="text-l font-semibold mx-1 underline-offset-2 cursor-pointer text-violet-600" to="/signup">
              
               Sign Up
             </Link>

@@ -6,6 +6,7 @@ import m2 from '../img/leaderboard.png'
 import m3 from '../img/aimaster.png'
 import Navbar from '../../components/Navbar'
 
+
 import t1 from '../img/img-1.png';
 import t2 from '../img/img-2.png';
 import t3 from '../img/img-3.png';
@@ -167,7 +168,7 @@ const Main = () => {
                     <h3>Nazim Istiaque</h3>
                 </div>
             </div>
-            <a href="./leaderBoard.html" target="_blank"><button class="btn-leaderboard">Leaderboard</button></a>
+            <a href="./LeaderBoard" target="_blank"><button class="btn-leaderboard">Leaderboard</button></a>
         </div>
     </div>
       

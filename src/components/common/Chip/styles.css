@@ -9,3 +9,6 @@
   width: fit-content;
   text-transform: capitalize;
 }
+.chip p{
+  color: #fff;
+}
