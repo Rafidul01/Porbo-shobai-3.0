@@ -62,7 +62,7 @@ function Navbar() {
                   onClick={userSignOut}
                   to="/"
                 >
-                  Log Out
+                  Log out
                 </a>
 		
 			 

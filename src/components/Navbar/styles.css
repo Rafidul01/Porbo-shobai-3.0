@@ -68,10 +68,23 @@ nav{
 .user-name p{
 	font-weight:600;
 	color: #0d7e4d;
+	cursor: pointer;
 }
 .logout {
 	font-weight:600;
-	color: #af0606;
+	color: #ffffff;
+	/* border: 1px solid #333; */
+	padding: 0.3rem 0.5rem;
+	border-radius: 0.3rem;
+	background-color: #c70e0e;
+	margin-right: 2px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.logout:hover{
+	background-color: #ffffff;
+	color: #020000;
+	cursor: pointer;
+	border: 0.5px solid red;
 }
 @media only screen and (max-width: 1024px) {
 	header .nav-btn {
