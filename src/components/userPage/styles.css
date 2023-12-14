@@ -1,7 +1,15 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 *{
     font-family: 'Roboto', sans-serif;
+}
+.italiaText{
+  font-family: 'Roboto', sans-serif;
+  
+}
+.logintext ,.registertext{
+  font-family: 'Permanent Marker', cursive;
 }

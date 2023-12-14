@@ -23,7 +23,7 @@ export function SignupPage() {
   };
 
   return (
-    <div class="min-h-screen py-10 bg-gradient-to-r from-cyan-200 to-cyan-500 ">
+    <div class="min-h-screen py-10 bg-gradient-to-r from-cyan-200 to-cyan-500 rounded">
       <div class="container mx-auto rounded-xl">
         <div class="flex flex-col lg:flex-row w-10/12 lg:w-10/12 mx-auto">
           <div class="w-full lg:w-1/2 flex flex-col items-center justify-center p-12 bg-no-repeat bg-cover bg-center ">
@@ -54,7 +54,7 @@ export function SignupPage() {
           </div>
 
           <div class="w-full lg:w-1/2 py-16 px-12">
-            <h2 class="text-3xl mb-4">Register</h2>
+            <h2 class="text-4xl mb-4 text-green-600 font-bold tracking-widest registertext">Register</h2>
             <p class="mb-4">
               Create your account. It’s free and only take a minute
             </p>
@@ -113,7 +113,7 @@ export function SignupPage() {
               </div>
               <div class="mt-5">
                 <button
-                  class="w-full p-2 text-white my-2 bg-black rounded-xl text-center flex items-center justify-center"
+                  class="w-full p-2 text-white my-2 bg-green-800 font-semibold rounded-xl text-center flex items-center justify-center"
                   type="submit"
                   onClick={signup}
                 >

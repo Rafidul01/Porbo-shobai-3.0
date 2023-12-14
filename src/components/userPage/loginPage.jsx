@@ -32,6 +32,7 @@ export function Loginpage({ user }) {
 
   return (
     //Dividing into two parts for images and content(login box,login)
+    
     <div className="w-full h-screen flex items-start">
       <div className="relative w-1/2 h-full flex flex-col">
         {/* <div className="absolute top-[20%] left-[10%] flex flex-col">
@@ -51,13 +52,13 @@ export function Loginpage({ user }) {
         {/* <h1 className="text-base font-bold">Porbo Sobai</h1> */}
 
         {/*Login text */}
-        <div className="w-full flex flex-col my-12">
-          <div className="w-full flex flex-col mb-8 my-8">
-            <h3 className="text-4xl font-semibold mb-2">Login Here</h3>
+        <div className="w-full flex flex-col my-12  items-center justify-center">
+          <div className="w-full flex flex-col mb-8 my-8 items-center justify-center">
+            <h3 className="text-4xl font-semibold mb-2 text-sky-600 tracking-wider logintext">Login Here</h3>
           </div>
 
           {/*Input pointer */}
-          <div className="w-full flex flex-col max-w-[500px]">
+          <div className="w-2/3 flex flex-col max-w-[500px] ">
             <form>
               <input
                 type="email"
@@ -126,7 +127,7 @@ export function Loginpage({ user }) {
             <div className="w-full h-[1px] bg-violet-600 my-1"></div>
             <p className="p-1 absolute text-gray-500 bg bg-cyan">OR</p>
           </div> */}
-          <p className="text-lg">
+          <p className="text-lg italiaText">
             Create an account.Its free.
             <Link className="text-l font-semibold mx-1 underline-offset-2 cursor-pointer text-violet-600" to="/signup">
              
